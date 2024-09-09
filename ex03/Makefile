@@ -6,7 +6,7 @@ NAME = animal
 
 INC = -Iincludes
 
-SRCS = srcs/main.cpp srcs/Animal.cpp srcs/Cat.cpp srcs/Dog.cpp srcs/WrongAnimal.cpp srcs/WrongCat.cpp srcs/Brain.cpp
+SRCS = srcs/main.cpp
 
 OBJS = $(SRCS:srcs/%.cpp=build/%.o)
 

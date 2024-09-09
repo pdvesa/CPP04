@@ -1,6 +1,6 @@
 CC = c++
 
-CCFLAGS = #-Wall -Werror -Wextra
+CCFLAGS = -Wall -Werror -Wextra
 
 NAME = animal
 
