@@ -11,7 +11,7 @@ Brain::~Brain() {
 Brain::Brain(const Brain &src) {
     std::cout << "Brain copy constructor called" << std::endl;
     *this = src;
-} //apparently better would be loop, idk
+}
 
 Brain &Brain::operator=(const Brain &src) {
     std::cout << "Brain copy assignment operator called" << std::endl;
@@ -30,7 +30,7 @@ const std::string Brain::getIdea(int index) const {
 
 void Brain::setIdea(std::string &idea, int start, int end) {
     if (start < 0 || end > 100 ||  end <= start) {
-        std::cout << "I CBA to validate all you trash input" << std::endl;
+        std::cout << "I CBA to validate all your trash input" << std::endl;
         return ;
     }
     for (int i = start ; i < end ; i++) {
